@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Top Melhores</title>
+    <link rel="shortcut icon" href="./Imagens/logoicon.png"/>
+</head>
+<body>
+    <header>
+        <div>
+            <div id="cabecalogo">
+                <a href="index.html">
+                    <img src="imagens/logo.png" width="100%" height="100%">
+                </a>
+            </div>
+        </div>
+        <nav id="navegacao">
+
+            <a id="estilohome" href="index.html"> HOME </a>
+            <a id="estilohome" href="topestilos.html">TOP ESTILOS</a>
+            <a id="estilohome" href="topcantores.html">TOP CANTORES</a>
+            <a id="estilohome" href="topmusicas.html">TOP MUSICAS</a>
+            <a id="estilohome" href="projetos.html">PROJETOS</a>
+            <a id="estilohome" href="contatos.html">CONTATOS</a>
+        </nav>
+    </header>
+    <main>
+        <div id="centralizartextohome">
+            <h2 id="titulo">- Nosso contato -</h2>
+            <div>
+                <p id="textohome">
+                    Adoramos compartilhar nossa paixão pela música, e estamos aqui para responder a qualquer pergunta que você possa ter! Se você
+                    está em busca de recomendações de artistas, informações sobre gêneros musicais, dicas de shows e eventos, ou até mesmo quer nos
+                    enviar sugestões, sinta-se à vontade para nos contatar.
+                </p>
+                <p id="textohome">
+                    Preencha o formulário abaixo com suas informações, e nossa equipe fará o possível para retornar sua mensagem o mais breve possível.
+                    Seja qual for a sua dúvida ou comentário, ficaremos felizes em ouvir de você. A música é melhor quando compartilhada, então vamos conversar!
+                </p>
+            </div>
+        </div>
+        <div id="centralizartextohome">
+                <section id="contato">
+                    <div id="textohome">
+                        <p>Entre em contato para saber mais sobre nosso conteúdo musical!</p>
+                    </div>
+                    <form id="formcontato" action="enviar.php" method="post" id="textohome">
+                        <p>
+                            <label for="nome">Nome:</label><br>
+                            <input type="text" id="nome" name="nome" required>
+                        </p>
+
+                        <p>
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+
+                        <p>
+                            <label for="assunto">Assunto:</label><br>
+                            <input type="text" id="assunto" name="assunto" required>
+                        </p>
+
+                        <p>
+                            <label for="mensagem">Mensagem:</abel><br>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </p>
+
+                        <p>
+                            <button type="submit">Enviar</button>
+                        </p>
+                    </form>
+                </section>
+        </div>
+    </main>
+    <footer>
+        <nav class="centralizarfooter">
+            <div id="navegacaofooter">
+                <a id="estilofooter" href="index.html">HOME |</a>
+            <a id="estilofooter" href="topestilos.html">TOP ESTILOS |</a>
+            <a id="estilofooter" href="topcantores.html">TOP CANTORES |</a>
+            <a id="estilofooter" href="topmusicas.html">TOP MUSICAS |</a>
+            <a id="estilofooter" href="projetos.html">PROJETOS |</a>
+            <a id="estilofooter" href="contatos.html">CONTATOS</a>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
