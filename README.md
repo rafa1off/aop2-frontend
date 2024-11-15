@@ -4,5 +4,5 @@ Projeto de Front End para a Atividade Online Pontuada 2 da disciplina Programaç
 
 ### Integrantes
 [Braian Junior Secchin Daros](https://github.com/braiandaros)\
-[Paula Barcelos Plotegher Langa]()\
+[Paula Barcelos Plotegher Langa](https://github.com/paulalanga)\
 [Rafael Rodrigues Metzker Giuriatto](https://github.com/rafa1off)
